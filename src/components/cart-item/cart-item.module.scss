@@ -1,0 +1,29 @@
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid lightcoral;
+  padding: 20px;
+  border-radius: 15px;
+  img {
+    margin-right: auto;
+    margin-left: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.241);
+    max-width: 130px;
+    border-radius: 15px;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+  }
+  p {
+    border-bottom: 2px solid lightcoral;
+  }
+  .icon {
+    padding: 10px;
+    transition: transform 0.3s;
+    &:hover {
+      color: coral;
+      transform: scale(1.2);
+    }
+  }
+}
+
